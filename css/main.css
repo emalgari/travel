@@ -1,0 +1,45 @@
+/**************body*************/
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/Bg.png);
+  background-size: cover;
+}
+
+/**************body*************/
+/**************Navbar*************/
+.navbar .navbar-brand img:hover {
+  transition: all 1s ease;
+}
+
+.navbar #navbar .nav-item a {
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar #navbar .nav-item a:hover {
+  color: #BBF8E9;
+  border-bottom: 1px solid #fff;
+  transition: all 1s ease;
+}
+
+.btn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn:hover {
+  background: #caa47e;
+  color: #BBF8E9;
+  border: 1px solid #9b9c9b;
+  transition: all 1s ease;
+}
+
+/**************Navbar end*************/
+.container {
+  z-index: -1;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  border-radius: 10px;
+}
